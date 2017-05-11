@@ -1,33 +1,309 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset= "UFT-8">
-		<link rel="stylesheet" href="">
-		<script src=""></script>
+		<meta charset="UFT-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>SlideShow</title>
 		<link rel="stylesheet" href="css/css.css">
 		<script src="js/js.js"></script>
 	</head>
 	<body>
-		<h1>Conceptos</h1>
+		<header>
+			<img src="imagenes/logo.jpg" id="header">
+		</header>
+		<div class="maqueta1">
+			<h1 class="titulo">Definiciones</h1>
+		</div>
+		<br>
+		<br>
+		<br>
 		<div class="container">
 			<div class="Tuslide"  id="slide">
-				<div class="vista">1/ 4</div>
-				<div class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce finibus, ex sed dignissim bibendum, massa orci laoreet odio, id fermentum mauris nunc in ipsum. In a maximus felis. Quisque enim libero, sodales id interdum varius, porttitor nec lectus. Nunc malesuada sit amet dolor tristique blandit. Aenean in pretium erat. Donec viverra, sem id eleifend blandit, eros dui aliquam nunc, sit amet ornare nisl lorem ut libero. Integer eu augue euismod, feugiat nisl id, cursus enim.</div>
+				<div class="vista">1/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">html</h1>
+					HTML significa "Lenguaje de Marcado de Hypertexto" por sus siglas en ingles "HyperText Markup Language",y es utilizado para la elaboración de páginas web. El estándar HTML lo define la W3C (World Wide Web Consortium) y actualmente HTML se encuentra en su versión HTML5.
+				</div>
 			</div>
 
 			<div class="Tuslide"  id="slide" style="display:none;">
-				<div class="vista">2/ 4</div>
-				<div class="texto">efkjbekfjbekjfbekfjb</div>
+				<div class="vista">2/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">¿Para que sirve HTML</h1>
+					Básicamente el lenguaje HTML sirve para describir la estructura básica de una página y organizar la forma en que se mostrará su contenido, además de que HTML permite incluir enlaces (links) hacia otras páginas o documentos.
+				</div>
 			</div>
 
 			<div class="Tuslide" id="slide" style="display:none;">
-				<div class="vista">3/ 4</div>
-				<div class="texto">aaaaaaaaaaMMl</div>
+				<div class="vista">3/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">¿Que son las etiquetas HTML?</h1>
+					Las etiquetas HTML son fragmentos de texto rodeados por corchetes angulares < >, que se utilizan para escribir código HTML, en HTML existen etiquetas de apertura y etiquetas de cierre, tienen la forma: <etiqueta> </etiqueta>. Donde <etiqueta> es la etiqueta de apertura y </etiqueta> es la etiqueta de cierre indicada por la diagonal. HTML tiene definidas gran variedad de etiquetas para distintos usos.
+				</div>
+			</div>
+			<!--css-->
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">4/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">CSS</h1>
+					CSS son las siglas de Cascading Style Sheets - Hojas de Estilo en Cascada - que es un lenguaje que describe la presentación de los documentos estructurados en hojas de estilo para diferentes métodos de interpretación, es decir, describe como se va a mostrar un documento en pantalla, por impresora, por voz (cuando la información es pronunciada a través de un dispositivo de lectura) o en dispositivos táctiles basados en Braille.
+				</div>
 			</div>
 			<div class="Tuslide" id="slide" style="display:none;">
-				<div class="vista">4/ 4</div>
-				<div class="texto">aaaaaaaaaaMMl</div>
+				<div class="vista">5/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">¿Para que sirve CSS?</h1>
+					Para permitir la separación de los contenidos de los documentos escritos en HTML, XML, XHTML, SVG, o XUL de la presentacin del documento con las hojas de estilo, incluyendo elementos tales como los colores, fondos, márgenes, bordes, tipos de letra..., modificando as la apariencia de una página web de una forma más sencilla, permitiendo a los desarrolladores controlar el estilo y formato de sus documentos.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">6/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">¿Cómo funciona?</h1>
+					Para permitir la separación de los contenidos de los documentos escritos en HTML, XML, XHTML, SVG, o XUL de la presentacin del documento con las hojas de estilo, incluyendo elementos tales como los colores, fondos, márgenes, bordes, tipos de letra..., modificando as la apariencia de una página web de una forma más sencilla, permitiendo a los desarrolladores controlar el estilo y formato de sus documentos.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">7/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Ejemplo</h1>
+						h2 {color: green;}
+						*	h2 ---> es el selector
+						*	{color: green;} ---> es la declaración
+						*	color ---> es la propiedad o atributo
+						*	green ---> es el valor
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">8/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Tres tipos de estilos:</h1>
+						Hoja de Estilo Externa:
+						se almacena en un archivo diferente al del archivo con el código HTML al cal estar vinculado a través del elemento link, que debe ir situado en la sección head. Es la manera de programar ms eficiente, ya que separa completamente las reglas de formato para la página HTML de la estructura básica de la página.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">9/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Hoja de Estilo Interna:</h1>
+					esta incorporada a un documento HTML, a través del elemento style dentro de la sección head, consiguiendo de esta manera separar la información del estilo del código HTML.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">10/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Estilo en Línea:</h1>
+					sirve para insertar el lenguaje de estilo directamente dentro de la sección body con el elemento style. Sin embargo, este tipo de estilo no se recomienda pues se debe intentar siempre separar el contenido de la presentación.
+				</div>
+			</div>
+			<!--JS-->
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">11/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">¿Qué es Javascript?</h1>
+					Javascript es un lenguaje con muchas posibilidades, utilizado para crear pequeños programas que luego son insertados en una página web y en programas más grandes, orientados a objetos mucho más complejos. Con Javascript podemos crear diferentes efectos e interactuar con nuestros usuarios.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">12/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Javascript</h1>
+					Javascript es un lenguaje que puede ser utilizado por profesionales y para quienes se inician en el desarrollo y diseño de sitios web. No requiere de compilación ya que el lenguaje funciona del lado del cliente, los navegadores son los encargados de interpretar estos códigos.
+					Muchos confunden el Javascript con el Java pero ambos lenguajes son diferentes y tienes sus características singulares.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">13/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">¿Cómo identificar código Javascript?</h1>
+					El código javascript podemos encontrarlo dentro de las etiquetas <body></body> de nuestras páginas web. Por lo general se insertan entre: <script></script>. También pueden estar ubicados en ficheros externos usando:
+					<script type="text/javascript" src="micodigo.js"></script>
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">14/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Sintaxis Javascript</h1>
+					Su sintaxis es similar a la usada en Java y C, al ser un lenguaje del lado del cliente este es interpretado por el navegador, no se necesita tener instalado ningún Framework.
+					•	Variables: var = “Hola”, n=103
+					•	Condiciones: if(i<10){ … }
+					•	Ciclos: for(i; i<10; i++){ … }
+					<Arreglos: var miArreglo = new Array(“12”, “77”, “5”)>
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">15/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">¿Que es JSON?</h1>
+					E•	JSON es el acrónimo para JavaScript Object Notation, y aunque su nombre lo diga, no es necesariamente parte de JavaScript, de hecho es un estándar basado en texto plano para el intercambio de información, por lo que se usa en muchos sistemas que requieren mostrar o enviar información para ser interpretada por otros sistemas, la ventaja de JSON al ser un formato que es independiente de cualquier lenguaje de programación, es que los servicios que comparten información por éste método, no necesitan hablar el mismo idioma, es decir, el emisor puede ser Java y el receptor PHP, cada lenguaje tiene su propia librería para codificar y decodificar cadenas de JSON.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">16/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Cómo se forma una cadena de JSON?</h1>
+					El principio básico es con pares atributo-valor, éstos deben estar encerrados entre llaves { , } que es lo que definen el inicio y el fin del objeto.
+					Para entender ésto de mejor forma, vamos a formar un objeto JSON para los datos de una persona:
+					//Ejemplo de JSON para un objeto tipo Persona
+					{
+					"nombre":"Fulano Probencio",
+					"edad":27,
+					"nacionalidad":"Chileno",
+					"altura":"172 cm",
+					"peso":75
+					}
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">17/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">¿Que es DOM?</h1>
+					es una abreviatura de Document Objet Model. En español podríamos traducirlo por Modelo de Objeto de Documento.Los objetos del DOM modelizan tanto la ventana del navegador como el historial, el documento o página web, y todos los elementos que pueda tener dentro la propia página, como párrafos, divisiones, tablas, formularios y sus campos, etc. 
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">18/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">DOM</h1>
+					Los nodos son los elementos básicos de la estructura del DOM. Estos se relacionan unos con otros en una estructura jerárquica, de modo que cada nodo tiene un nodo superior del que depende, que es el nodo padre. Cada nodo puede tener 0, 1, ó varios nodos dependientes de él, éstos serán los nodos hijos. Los nodos que están a un mismo nivel, dependiendo todos ellos del mismo nodo padre, son nodos hermanos. Todo el arbol del DOM depende de un nodo principal a partir del cual se generan todos los demás. Es el nodo Document.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">19/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Formularios en HTML</h1>
+					Es una sección de un documento que contiene contenido normal, código, elementos especiales llamados controles (casillas de verificación (checkboxes), radiobotones (radio buttons), menúes, etc.), y rótulos (labels) en esos controles. Los usuarios normalmente "completan" un formulario modificando sus controles (introduciendo texto, seleccionando objetos de un menú, etc.), antes de enviar el formulario a un agente para que lo procese (p.ej., a un servidor web, a un servidor de correo, etc.)
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">20/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Ejemplo de: Formularios en HTML</h1>
+					<--FORM action="http://algunsitio.com/prog/usuarionuevo" method="post">
+					   <--P>
+					    <--LABEL for="nombre">Nombre: </LABEL>
+					              <--INPUT type="text" id="nombre"><BR>
+					    <--LABEL for="apellido">Apellido: </LABEL>
+					              <--INPUT type="text" id="apellido"><BR>
+					    <--LABEL for="email">email: </LABEL>
+					              <--INPUT type="text" id="email"><BR>
+					    <--INPUT type="radio" name="sexo" value="Varón"> Varón<BR>
+					    <--INPUT type="radio" name="sexo" value="Mujer"> Mujer<BR>
+					    <--INPUT type="submit" value="Enviar"> <INPUT type="reset">
+					    <--/P>
+					<--/FORM>
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">21/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">¿Qué es una función?</h1>
+					A la hora de hacer un programa ligeramente grande existen determinados procesos que se pueden concebir de forma independiente, y que son más sencillos de resolver que el problema entero. Además, estos suelen ser realizados repetidas veces a lo largo de la ejecución del programa. Estos procesos se pueden agrupar en una función, definida para que no tengamos que repetir una y otra vez ese código en nuestros scripts, sino que simplemente llamamos a la función y ella se encarga de hacer todo lo que debe.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">22/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">¿Cómo se escribe una función?</h1>
+					Una función se debe definir con una sintaxis especial que vamos a conocer a continuación.
+					function nombrefuncion (){ 
+					   instrucciones de la función 
+					   ... 
+					}
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">23/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">¿Cómo llamar a una función?</h1>
+					Para ejecutar una función la tenemos que invocar en cualquier parte de la página. Con eso conseguiremos que se ejecuten todas las instrucciones que tiene la función entre las dos llaves.
+					Para ejecutar la función utilizamos su nombre seguido de los paréntesis. Por ejemplo, así llamaríamos a la función escribirBienvenida() que acabamos de crear.
+					escribirBienvenida().
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">24/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">LocalStorage y sessionStorage</h1>
+					LocalStorage y sessionStorage son propiedades de HTML5 (web storage), que permiten almacenar datos en nuestro navegador web. De manera muy similar a como lo hacen las cookies.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">25/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">LocalStorage</h1>
+					Guarda información que permanecerá almacenada por tiempo indefinido; sin importar que el navegador se cierre.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">26/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">SessionStorage</h1>
+					Almacena los datos de una sesión y éstos se eliminan cuando el navegador se cierra.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">27/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Las características de Local Storage y sessionStorage son:</h1>
+					•	Permiten almacenar entre 5MB y 10MB de información; incluyendo texto y multimedia
+					•	La información está almacenada en la computadora del cliente y NO es enviada en cada petición del servidor, a diferencia de las cookies
+					•	Utilizan un número mínimo de peticiones al servidor para reducir el tráfico de la red
+					•	Previenen pérdidas de información cuando se desconecta de la red
+					•	La información es guardada por domino web (incluye todas las páginas del dominio)
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">28/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">JavaScript prototipos de objetos</h1>
+					Cada objeto tiene un prototipo de JavaScript. El prototipo es también un objeto.
+					Todos los objetos JavaScript heredan sus propiedades y métodos de su prototipo.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">29/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Los prototipos de JavaScript</h1>
+					Todos los objetos JavaScript heredan las propiedades y métodos de su prototipo.
+					Los objetos creados utilizando un objeto literal o con new Object (), heredan de un prototipo llamado Object.prototype.
+					Los objetos creados con new Date () heredan el Date.prototype.
+					El Object.prototype está en la parte superior de la cadena de prototipo.
+					Todos los objetos JavaScript (Fecha, Array, RegExp, función, ....) heredan de la Object.prototype.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">30/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Variables:</h1>
+					La creación de una variable en JavaScript se llama "declarar" una variable.
+					Se declara una variable de JavaScript con la var palabra clave:
+					var carName;
+					Después de la declaración, la variable no tiene valor. (Técnicamente tiene el valor de no definido )
+					Para asignar un valor a la variable, utilice el signo igual:
+					carName = "Volvo";
+
+					También puede asignar un valor a la variable cuando se declara que:
+					var carName = "Volvo";
+					En el ejemplo siguiente, se crea una variable llamada carName y asignamos el valor "Volvo" a ella.
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">31/32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Una declaración, por muchas variables</h1>
+					Se puede declarar muchas variables en una sentencia.
+					Iniciar la declaración con var y separar las variables por comas :
+					var person = "John Doe", carName = "Volvo", price = 200;
+				</div>
+			</div>
+			<div class="Tuslide" id="slide" style="display:none;">
+				<div class="vista">32/ 32</div>
+				<div class="texto">
+					<h1 class="tituloslide">Valor = indefinido</h1>
+					En los programas de ordenador, las variables se declaran a menudo sin un valor. El valor puede ser algo que tiene que ser calculado, o algo que se proporciona más adelante, al igual que la entrada del usuario.
+					Una variable declarada sin valor tendrá el valor indefinido .
+				</div>
 			</div>
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -37,6 +313,7 @@
 	  		<span class="dot" onclick="currentSlide(2)"></span> 
   			<span class="dot" onclick="currentSlide(3)"></span> 
   			<span class="dot" onclick="currentSlide(4)"></span> 
+	  		<span class="dot" onclick="currentSlide(5)"></span> 
 	  		<span class="dot" onclick="currentSlide(5)"></span> 
 
 		</div>

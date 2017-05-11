@@ -5,16 +5,34 @@ body{
 .slide{
 	display: none;
 }
+header{
+	position: relative;
+	margin: auto;
+	border:1px solid blue;
+}
+#header{
+	width: 180px;
+    height: 130px;
+	position: relative;
+	border:1px solid black;
+	margin: auto;
+}
+.maqueta1{
+	border: 1px solid pink;
+	margin-top: -110px;
+}
 /*contenedor*/
 .container{
 	max-width: 1000px;
 	position: relative;
 	margin: auto;
 	border:1px solid black;
+	height: 260px;
+
 }
 .Tuslide{
 	width: 80%;
-	
+	height: 260px;
 	margin: auto;
 	border: 1px solid red;
 }
@@ -26,12 +44,15 @@ body{
 	position: absolute;
 	bottom: 8px;
 	width: 80%;
-	
 	text-align: center;
 }
 .titulo{
 	text-align: center;
-
+	border: 1px solid green;
+	position: relative;
+}
+.tituloslide{
+	text-align: center;
 }
 /*numero de slide*/
 .container>.vista{
